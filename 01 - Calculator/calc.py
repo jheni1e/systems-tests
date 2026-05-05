@@ -16,7 +16,7 @@ def min(x, y):
     else:
         return y
     
-def odd(x):
+def even(x):
     return x % 2 == 0
 
 def celtofah(c):
