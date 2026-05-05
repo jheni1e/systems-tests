@@ -24,3 +24,12 @@ def celtofah(c):
     
 def fahtocel(f):
     return (f - 32) * 5/9
+
+def square(w, h):
+    return w * h
+
+def triangle(a, b):
+    return (a * b) /2
+
+def ellipse(a, b):
+    return 3.14 * a * b
