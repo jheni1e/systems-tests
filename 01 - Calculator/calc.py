@@ -33,3 +33,21 @@ def triangle(a, b):
 
 def ellipse(a, b):
     return 3.14 * a * b
+
+def metertocm(m):
+    return m * 100
+
+def cmtometer(cm):
+    return cm / 100
+
+def litertoml(l):
+    return l * 1000
+
+def mltoliter(ml):
+    return ml / 1000
+
+def dollartoreal(d):
+    return d * 4.9
+
+def realtodollar(r):
+    return r / 4.9
