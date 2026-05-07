@@ -1,13 +1,13 @@
 from login import autenticar
 
 def login_valido():
-    return
+    assert autenticar('jhenie', 'jhenie123')
 
 def login_usuario_invalido():
-    return
+    assert autenticar('jhenifer', 'jhenie123')
 
 def login_senha_invalida():
-    return
+    assert autenticar('jhenie', 'jhenie123456')
 
 def login_ambos_invalidos():
-    return
+    assert autenticar('jhenifer', 'jhenifer123')

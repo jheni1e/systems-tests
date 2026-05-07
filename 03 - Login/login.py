@@ -1,2 +1,2 @@
 def autenticar(usuario, senha):
-    return
+    return usuario == 'jhenie' and senha == 'jhenie123'
